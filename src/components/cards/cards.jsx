@@ -1,6 +1,6 @@
 
 import { useState } from 'react/cjs/react.development'
-import cities from '../../data/database.json'
+import cities from '../../data/database'
 import './cards.styles.css'
 
 function Cards(){
@@ -24,7 +24,7 @@ function Cards(){
 
                                 <ul className='city'key={city.id}>
                                     <li>
-                                        <img className='city-image' href={city.image} alt={city.name}/>
+                                        <img className='city-image' src={city.image} alt={city.name}/>
                                         <h2>{city.name}</h2>
                                     </li>
                                 </ul>

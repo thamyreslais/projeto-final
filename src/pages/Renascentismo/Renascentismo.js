@@ -1,5 +1,6 @@
 import Menu from '../../components/Menu/Menu'
 import Footer from '../../components/Footer/Footer'
+import react from 'react'
 import './renascimento.styles.css'
 
 
@@ -9,7 +10,7 @@ const Renascentismo =() =>{
             <Menu/>
             <section>
                 <header>
-                    <img className='img-capa' href='https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/AI6ZXKWK4BHJ7L67WHPPQY6MOQ.jpg' alt='A criação de Adão'/>
+                    <img className='img-capa' src='https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/AI6ZXKWK4BHJ7L67WHPPQY6MOQ.jpg' alt='A criação de Adão'/>
                     <h1 className='name-intro'>Renascentismo</h1>
                 </header>
             </section>
@@ -34,7 +35,7 @@ const Renascentismo =() =>{
                     <p>Individualismo</p>
                 </div>
                 <div className='homem-vitruviano'>
-                    <img href='https://s2.glbimg.com/C-hO7PBKlE0z8SOZRFWF81G8dUo=/smart/e.glbimg.com/og/ed/f/original/2019/10/16/61950733_1048112612050521_9041491844828217521_n.jpg' alt='Homem Vitruviano'/>
+                    <img src='https://s2.glbimg.com/C-hO7PBKlE0z8SOZRFWF81G8dUo=/smart/e.glbimg.com/og/ed/f/original/2019/10/16/61950733_1048112612050521_9041491844828217521_n.jpg' alt='Homem Vitruviano'/>
                     <p>Homem Vitruviano-Leonardo Da Vinci</p>
                 </div>
             </section>

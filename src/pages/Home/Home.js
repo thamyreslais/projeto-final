@@ -2,6 +2,7 @@ import Menu from '../../components/Menu/Menu'
 import Cards from '../../components/cards/cards'
 import Header from "../../components/Header/Header"
 import Footer from '../../components/Footer/Footer'
+import react from 'react'
 
 import imageHome from '../../assets/home.svg'
 
