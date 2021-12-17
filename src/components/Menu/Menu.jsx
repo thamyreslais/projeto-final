@@ -13,8 +13,13 @@ function Menu() {
                     </li>
 
                     <li>
+                        <Link to='/renascentismo'>Renascentismo</Link>
+                    </li>
+
+                    <li>
                         <Link to='/sobre'>Sobre</Link>
                     </li>
+
                 </ul>
             </div>
         </>

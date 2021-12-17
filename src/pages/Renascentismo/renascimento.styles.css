@@ -1,0 +1,62 @@
+.img-capa{
+    width: 100%;
+    height: 25rem;
+}
+
+.name-intro{
+    text-align: center;
+    color: rgb(240, 215, 105);
+}
+
+.text-container{
+    padding: 2rem;
+    display: flex;
+}
+
+h3{
+    padding: 2rem;
+    text-align: center;
+}    
+
+
+.text-container p{
+    margin-left: 1rem;
+    height: 250px;
+    width: 700px;
+    background-color: rgb(243, 237, 160);
+    border-radius: 4px;
+    color: rgb(8, 8, 8);
+    padding: 8px;
+    flex-direction: row;
+}
+
+.text-container2{
+    padding: 2rem;
+    display: flex;
+}
+
+
+.text-container2 p {
+    margin-left: 1rem;
+    height: 55px;
+    width: 800px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(243, 237, 160);
+    border-radius: 4px;
+    color: rgb(8, 8, 8);
+    padding: 8px;
+    flex-direction: row;
+}
+
+.homem-vitruviano{
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.homem-vitruviano img{
+    width: 400px;
+    height: 400px;
+    flex-direction: row;
+}
