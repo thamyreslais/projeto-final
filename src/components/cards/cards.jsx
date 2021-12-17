@@ -19,7 +19,7 @@ function Cards(){
                                 
                     </div>
                     <div>
-                        <a className='card-container'>
+                        <div className='card-container'>
                             {cities.map((city)=>
 
                                 <ul className='city'key={city.id}>
@@ -29,7 +29,7 @@ function Cards(){
                                     </li>
                                 </ul>
                             )}
-                        </a>
+                        </div>
                     </div>
             </section>
         </>
