@@ -13,7 +13,7 @@ function Cards(){
                 return cidade.name.includes(busca);
             }),
         );
-    }, [cities, busca]);
+    }, [ busca]);
 
    console.log(cities)
 
