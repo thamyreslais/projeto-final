@@ -4,16 +4,16 @@ import cities from '../../data/database'
 import './cards.styles.css'
 
 function Cards(){
-    const [busca, setBusca] = useState('')
-    const [filtro, setFiltro] = useState([])
+    const [busca, setBusca] = useState('');
+    const [filtro, setFiltro] = useState([]);
 
     useEffect(()=>{
         setFiltro(
             cities.filter(cidade=>{
-                return cidade.name.includes(busca)
-            })
-        )
-    }, [cities, busca])
+                return cidade.name.includes(busca);
+            });
+        );
+    }, [cities, busca]);
 
    
 
