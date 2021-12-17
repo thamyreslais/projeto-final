@@ -1,18 +1,17 @@
-import Menu from "../Menu/Menu"
+
 import cities from '../../data/database'
-import Footer from "../Footer/Footer"
+
 
 function Place(){
     return(
         <>
-        <Menu/>
         <section>
             <div className="header-container">
                 {cities.map((places) =>
                     <ul>
-                        <li key={places.id[0]}>
-                            <img src={places.imageCity[0]} alt={places.name[0]}/>
-                            <h1>{places.name[0]}</h1>
+                        <li key={places.id}>
+                            <img src={places.imageCity} alt={places.name}/>
+                            <h1>{places.name}</h1>
                         </li>
                     </ul>
                 )
@@ -20,7 +19,6 @@ function Place(){
                 }
             </div>
         </section>
-        <Footer/>
         </>
     )
 }

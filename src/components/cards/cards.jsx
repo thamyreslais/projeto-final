@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from 'react'
+import {Link} from 'react'
 import cities from '../../data/database'
 import './cards.styles.css'
 
@@ -13,9 +14,8 @@ function Cards(){
                 return cidade.name.includes(busca);
             }),
         );
-    }, [ busca]);
+    }, [busca]);
 
-   console.log(cities)
 
     return(
         <>
@@ -36,7 +36,7 @@ function Cards(){
                                 <ul className='city'key={city.id}>
                                     <li>
                                         <img className='city-image' src={city.imageCity} alt={city.name}/>
-                                      <h2>{city.name}</h2>
+                                      <a href="/local"><h2>{city.name}</h2></a>
                                     </li>
                                 </ul>
                             )}

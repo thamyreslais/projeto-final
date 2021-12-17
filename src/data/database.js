@@ -5,7 +5,7 @@
     name: "Florença",
     imageCity:
         "https://www.submarinoviagens.com.br/media/14212389/como-chegar-em-florenca-653348119.jpg",
-    imagArt: [
+    imageArt: [
      "https://i1.wp.com/virusdaarte.net/wp-content/uploads/2020/10/dedore.jpg?ssl=1",
      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Michelangelo%27s_David_2015.jpg/245px-Michelangelo%27s_David_2015.jpg",
      "https://ansabrasil.com.br/webimages/al_news_476x/2016/6/18/1466205572908_Fountain_of_Neptune.jpg",
