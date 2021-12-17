@@ -1,6 +1,5 @@
 
 import { useState, useEffect } from 'react'
-import {Link} from 'react'
 import cities from '../../data/database'
 import './cards.styles.css'
 
