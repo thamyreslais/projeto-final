@@ -5,13 +5,6 @@ import './cards.styles.css'
 
 function Cards(){
     const [busca, setBusca] = useState('')
-    const [filtro, setFiltro]= useState([])
-
-    useEffect(() => {
-        if (busca) {
-            fetch
-        }
-    }, [])
 
     return(
         <>
