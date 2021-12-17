@@ -4,7 +4,7 @@ import { TiSocialGithub, TiSocialLinkedin} from 'react-icons/ti'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import ImageSobre from "../../assets/sobre.svg"
-import react from 'react'
+
 
 import Menu from '../../components/Menu/Menu'
 

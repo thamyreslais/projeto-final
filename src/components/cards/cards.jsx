@@ -1,10 +1,19 @@
 
-import { useState } from 'react/cjs/react.development'
+import { useState, useEffect } from 'react/cjs/react.development'
 import cities from '../../data/database'
 import './cards.styles.css'
 
 function Cards(){
     const [busca, setBusca] = useState('')
+    const [filtro, setFiltro] = useState([])
+
+    useEffect(()=>{
+        setFiltro(
+            cities.filter(cidade=>{
+                return cidade.name.includes(busca)
+            })
+        )
+    }, [cities, busca])
 
     return(
         <>
@@ -20,7 +29,7 @@ function Cards(){
                     </div>
                     <div>
                         <div className='card-container'>
-                            {cities.map((city)=>
+                            {filtro.map((city)=>
 
                                 <ul className='city'key={city.id}>
                                     <li>
