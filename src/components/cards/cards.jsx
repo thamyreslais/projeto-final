@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from 'react/cjs/react.development'
+import { useState, useEffect } from 'react'
 import cities from '../../data/database'
 import './cards.styles.css'
 
@@ -11,11 +11,11 @@ function Cards(){
         setFiltro(
             cities.filter(cidade=>{
                 return cidade.name.includes(busca);
-            });
+            }),
         );
     }, [cities, busca]);
 
-   
+   console.log(cities)
 
     return(
         <>
@@ -36,7 +36,7 @@ function Cards(){
                                 <ul className='city'key={city.id}>
                                     <li>
                                         <img className='city-image' src={city.imageCity} alt={city.name}/>
-                                       <h2>{city.name}</h2>
+                                      <h2>{city.name}</h2>
                                     </li>
                                 </ul>
                             )}
