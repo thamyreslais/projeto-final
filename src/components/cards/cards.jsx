@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from 'react/cjs/react.development'
+import { useState } from 'react/cjs/react.development'
 import cities from '../../data/database.json'
 import './cards.styles.css'
 
