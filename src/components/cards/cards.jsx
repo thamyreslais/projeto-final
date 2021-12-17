@@ -15,6 +15,8 @@ function Cards(){
         )
     }, [cities, busca])
 
+   
+
     return(
         <>
             <section>
@@ -33,8 +35,8 @@ function Cards(){
 
                                 <ul className='city'key={city.id}>
                                     <li>
-                                        <img className='city-image' src={city.image} alt={city.name}/>
-                                        <h2>{city.name}</h2>
+                                        <img className='city-image' src={city.imageCity} alt={city.name}/>
+                                       <h2>{city.name}</h2>
                                     </li>
                                 </ul>
                             )}
