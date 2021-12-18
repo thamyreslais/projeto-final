@@ -1,0 +1,20 @@
+.artes-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.artes{
+    display: flex;
+    background-color: rgb(243, 237, 160);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+    padding: 20px;
+}
+.artes-foto{
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}

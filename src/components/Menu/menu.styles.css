@@ -19,3 +19,16 @@
   ul li{
     list-style: none;
   }
+
+
+  @media (max-width: 780px){
+    .navbar{
+      font-size: 15px;
+    }
+  }
+
+  @media (max-widht: 1280px){
+    .navbar{
+      font-size: 30px;
+    }
+  }

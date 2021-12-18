@@ -6,7 +6,7 @@ import './cards.styles.css'
 function Cards(){
     const [busca, setBusca] = useState('');
     const [filtro, setFiltro] = useState([]);
-
+    const [id, setId] = useState([])
     useEffect(()=>{
         setFiltro(
             cities.filter(cidade=>{
@@ -14,7 +14,6 @@ function Cards(){
             }),
         );
     }, [busca]);
-
 
     return(
         <>
@@ -35,14 +34,15 @@ function Cards(){
                                 <ul className='city'key={city.id}>
                                     <li>
                                         <img className='city-image' src={city.imageCity} alt={city.name}/>
-                                      <a href="/local"><h2>{city.name}</h2></a>
+                                      <a href="/local" onClick={city.id}><h2>{city.name}</h2></a>
                                     </li>
                                 </ul>
                             )}
                         </div>
                     </div>
-            </section>
+            </section> 
         </>
+        
     )
 }
 
