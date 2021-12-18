@@ -25,7 +25,7 @@ const Renascentismo =() =>{
                     <p> Sendo então o desenho <strong>Homem Vitruviano</strong> de Leonardo Da Vinci, a sintetização do ideário renascentista humanista e clássico</p>
                 </div>
 
-                <h3>Características do Renascentismo</h3>
+                <h3 className='h3-container2'>Características do Renascentismo</h3>
                 <div className='text-container2'>
 
                     <p>Antropocentrismo</p>

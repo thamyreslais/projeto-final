@@ -18,3 +18,14 @@
     width: 300px;
     height: 300px;
 }
+.name-artes{
+    flex-wrap: wrap;
+}
+
+@media(max-width: 780px) {
+
+    .artes-foto{
+        width: 100px;
+        height: 100px;
+    }
+}

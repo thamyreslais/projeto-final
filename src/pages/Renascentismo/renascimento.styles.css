@@ -16,6 +16,8 @@
 h3{
     padding: 2rem;
     text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }    
 
 
@@ -28,11 +30,14 @@ h3{
     color: rgb(8, 8, 8);
     padding: 8px;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .text-container2{
     padding: 2rem;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 
@@ -47,6 +52,7 @@ h3{
     color: rgb(8, 8, 8);
     padding: 8px;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .homem-vitruviano{
@@ -59,4 +65,21 @@ h3{
     width: 400px;
     height: 400px;
     flex-direction: row;
+}
+
+@media (max-width: 780px){
+
+.text-container{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+.tex-container p{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+ .homem-vitruviano img {
+     width: 200px;
+     height: 300px;
+ }
 }
